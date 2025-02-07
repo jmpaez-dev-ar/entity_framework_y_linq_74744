@@ -93,7 +93,6 @@ namespace m01
 			{
 				Console.WriteLine(i);
 			}
-
 		}
 
 		private static void DemoClaseGenerics()
@@ -122,15 +121,15 @@ namespace m01
 		}
 	}
 
-	public class MiClaseGenerica<T>
+	public class MiClaseGenerica<T>     // T: Es un parámetro de tipo genérico. Puede ser cualquier tipo (int, string, etc.).
 	{
 		T valor;
-		public MiClaseGenerica(T t)
+		public MiClaseGenerica(T t)     // Toma un parámetro de tipo T y lo asigna a la variable valor.
 		{
 			valor = t;
 		}
 
-		public void MostrarTipoValor()
+		public void MostrarTipoValor()  // Imprime el nombre del tipo y el valor almacenado.
 		{
 			Console.WriteLine(this.valor.GetType().Name);
 			Console.WriteLine(this.valor);
