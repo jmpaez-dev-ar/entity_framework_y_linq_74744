@@ -23,14 +23,19 @@ namespace m01
 		// MÉTODOS GENÉRICOS:
 		// Los métodos genéricos permiten definir métodos con parámetros de tipo, especificados en tiempo de ejecución. Ofrecen flexibilidad, reutilización de código y seguridad de tipos al trabajar con diferentes datos sin duplicar el código.
 
+		// Los generics en .NET permiten escribir código más flexible, reutilizable y seguro. Ayudan a trabajar con diferentes tipos de datos sin sacrificar la seguridad de tipo en tiempo de compilación, mejorando la mantenibilidad y rendimiento de las aplicaciones.
+
 		public static void Demos()
 		{
 			Console.WriteLine("Demo de Clases y Metodos Genericos");
 			Console.WriteLine("-----------------------------------\n");
 
-			// DemoSinGenerics();
-			// DemoConGenerics();
-			// DemoClaseGenerics();
+			DemoSinGenerics();
+			
+			DemoConGenerics();
+			
+			DemoClaseGenerics();
+			
 			DemoClaseGenericaCaja();
 		}
 
@@ -71,6 +76,9 @@ namespace m01
 			 */
 			var list = new List<MiClase>();
 			list.Add(new MiClase());
+
+			// Aquí no se pueden añadir elementos de diferentes tipos a una lista genérica que solo debería contener objetos de tipo MiClase.
+
 			//list.Add(23);
 			//list.Add(45);
 			//list.Add(87);
