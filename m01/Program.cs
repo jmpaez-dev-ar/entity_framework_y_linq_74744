@@ -5,9 +5,10 @@
         static void Main(string[] args)
         {
 			// Clases y Metodos Genericos
-			ClasesYMetodosGenericos.Demos();
+			// ClasesYMetodosGenericos.Demos();
 
 			// Metodos de Extension
+			MetodosDeExtension.Demos();
 
 			// Inferencia de Tipos
 
