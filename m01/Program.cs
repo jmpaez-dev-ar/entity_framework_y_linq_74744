@@ -8,11 +8,13 @@
 			// ClasesYMetodosGenericos.Demos();
 
 			// Metodos de Extension
-			MetodosDeExtension.Demos();
+			// MetodosDeExtension.Demos();
 
 			// Inferencia de Tipos
+			//InferenciaDeTipos.Demos();
 
 			// Inicializadores de Objetos y Colecciones
+			InicializadoresDeObjetosYColecciones.Demos();
 
 			// Tipos Anonimos
 
