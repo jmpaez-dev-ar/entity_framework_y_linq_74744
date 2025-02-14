@@ -11,14 +11,16 @@
 			// MetodosDeExtension.Demos();
 
 			// Inferencia de Tipos
-			//InferenciaDeTipos.Demos();
+			// InferenciaDeTipos.Demos();
 
 			// Inicializadores de Objetos y Colecciones
-			InicializadoresDeObjetosYColecciones.Demos();
+			// InicializadoresDeObjetosYColecciones.Demos();
 
 			// Tipos Anonimos
+			// TiposAnonimos.Demos();	
 
 			// Clases y Metodos Parciales
+			ClasesYMetodosParciales.Demos();
 
 		}
 	}
