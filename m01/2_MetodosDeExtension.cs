@@ -27,14 +27,19 @@ namespace m01
 
 		private static void DemoMetodosExtensionCadenas()
 		{
+			Console.WriteLine("Demo de Métodos de Extensión para Manejo de Cadenas");
+			Console.WriteLine("---------------------------------------------------\n");
 
 			string mensaje = "Hola, ¿Cómo están?";
 			Console.WriteLine(mensaje);
 
+			Console.WriteLine("\nMayusculas");
 			Console.WriteLine(mensaje.Mayusculas());
 
+			Console.WriteLine("\nMinusculas");
 			Console.WriteLine(mensaje.Minusculas());
 
+			Console.WriteLine("\nInvertir");
 			Console.WriteLine(mensaje.Invertir());
 
 			string email = "cliente@hotmail.com";
@@ -44,6 +49,8 @@ namespace m01
 
 		public static void DemoMetodosExtensionFechas()
 		{
+			Console.WriteLine("Demo de Métodos de Extensión para Manejo de Fechas");
+			Console.WriteLine("--------------------------------------------------\n");
 
 			DateTime fechaNacimiento = new DateTime(1990, 5, 15);
 			int edad = fechaNacimiento.CalcularEdad();
@@ -60,7 +67,11 @@ namespace m01
 			Console.WriteLine($"Último día del mes: {ultimoDia.ToShortDateString()}");
 		}
 
-		private static void DemoMetodosExtensionNumeros() {
+		private static void DemoMetodosExtensionNumeros()
+		{
+			Console.WriteLine("Demo de Métodos de Extensión para Manejo de Números");
+			Console.WriteLine("---------------------------------------------------\n");
+
 			int numero = 42;
 			Console.WriteLine($"El número {numero} es par: {numero.EsPar()}");
 
