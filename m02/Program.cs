@@ -5,9 +5,10 @@
 		static void Main(string[] args)
 		{
 			// Delegados
-			Delegados.Demos();
+			// Delegados.Demos();
 
 			// Métodos anónimos
+			MetodosAnonimos.Demos();	
 
 			// Expresiones lambda
 
