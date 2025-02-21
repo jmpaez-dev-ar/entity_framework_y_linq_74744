@@ -4,15 +4,20 @@
 	{
 		static void Main(string[] args)
 		{
-			// Delegados
+			// -- Delegados
 			// Delegados.Demos();
 
-			// Métodos anónimos
-			MetodosAnonimos.Demos();	
+			// -- Métodos anónimos
+			// MetodosAnonimos.Demos();
 
-			// Expresiones lambda
+			// -- Expresiones lambda
+			// ExpresionesLambda.Demos();
 
-			// Action<> y Func<>
+			// -- Action<> y Func<>
+			// AccionYFunc.Demos();
+
+			// -- Predicados
+			Predicados.Demos();
 
 			// Las interfaces IEnumerable<T> y IQueryable<T>
 		}
