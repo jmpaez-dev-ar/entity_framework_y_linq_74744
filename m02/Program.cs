@@ -17,9 +17,10 @@
 			// AccionYFunc.Demos();
 
 			// -- Predicados
-			Predicados.Demos();
+			// Predicados.Demos();
 
 			// Las interfaces IEnumerable<T> y IQueryable<T>
+			InterfacesIEnumerableYIQueryable.Demos();
 		}
 	}
 }
