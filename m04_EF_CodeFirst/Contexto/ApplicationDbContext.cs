@@ -11,7 +11,7 @@ namespace m04_EF_CodeFirst.Contexto
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
 
-			optionsBuilder.UseSqlServer("Data Source=.\\sqlexpress;Initial Catalog=MicroGestionComercial;Integrated Security=True;MultipleActiveResultSets=True;TrustServerCertificate=True");
+			optionsBuilder.UseSqlServer(@"Data Source=.\sqlexpress;Initial Catalog=MicroGestionComercial;Integrated Security=True;MultipleActiveResultSets=True;TrustServerCertificate=True");
 		}
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m04_EF_DatabaseFirst", "m04
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m04_EF_ModelFirst", "m04_EF_ModelFirst\m04_EF_ModelFirst.csproj", "{F9F43954-8991-45A2-B52B-344F7A689589}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m05_EF_CRUD", "m05_EF_CRUD\m05_EF_CRUD.csproj", "{BF79C1B6-E70F-4360-B482-B3E798F0860E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{F9F43954-8991-45A2-B52B-344F7A689589}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9F43954-8991-45A2-B52B-344F7A689589}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9F43954-8991-45A2-B52B-344F7A689589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF79C1B6-E70F-4360-B482-B3E798F0860E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF79C1B6-E70F-4360-B482-B3E798F0860E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF79C1B6-E70F-4360-B482-B3E798F0860E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF79C1B6-E70F-4360-B482-B3E798F0860E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
