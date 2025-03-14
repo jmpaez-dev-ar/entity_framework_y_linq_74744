@@ -26,9 +26,7 @@ public partial class Producto
     public int CategoriaId { get; set; }
 
     [ForeignKey("CategoriaId")]
-    [InverseProperty("Productos")]
     public virtual Categoria Categoria { get; set; } = null!;
 
-    [InverseProperty("Producto")]
     public virtual ICollection<DetallePedido> DetallesPedidos { get; set; } = new List<DetallePedido>();
 }

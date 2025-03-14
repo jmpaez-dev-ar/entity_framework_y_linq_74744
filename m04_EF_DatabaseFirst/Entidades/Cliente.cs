@@ -38,6 +38,5 @@ public partial class Cliente
     [Unicode(false)]
     public string? RazonSocial { get; set; }
 
-    [InverseProperty("Cliente")]
     public virtual ICollection<Pedido> Pedidos { get; set; } = new List<Pedido>();
 }

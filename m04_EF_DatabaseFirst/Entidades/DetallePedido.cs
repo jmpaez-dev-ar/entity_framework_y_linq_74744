@@ -25,10 +25,8 @@ public partial class DetallePedido
     public decimal DescuentoPorcentaje { get; set; }
 
     [ForeignKey("PedidoId")]
-    [InverseProperty("DetallesPedidos")]
     public virtual Pedido Pedido { get; set; } = null!;
 
     [ForeignKey("ProductoId")]
-    [InverseProperty("DetallesPedidos")]
     public virtual Producto Producto { get; set; } = null!;
 }

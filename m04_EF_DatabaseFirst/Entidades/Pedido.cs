@@ -19,9 +19,7 @@ public partial class Pedido
     public int ClienteId { get; set; }
 
     [ForeignKey("ClienteId")]
-    [InverseProperty("Pedidos")]
     public virtual Cliente Cliente { get; set; } = null!;
 
-    [InverseProperty("Pedido")]
-    public virtual ICollection<DetallePedido> DetallesPedidos { get; set; } = new List<DetallePedido>();
+    public virtual ICollection<DetallePedido> DetallesPedido { get; set; } = new List<DetallePedido>();
 }

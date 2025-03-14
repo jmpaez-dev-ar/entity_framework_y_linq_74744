@@ -1,4 +1,4 @@
-USE [MiniGestionComercial_Instructor]
+USE [MiniGestionComercial]
 GO
 SET IDENTITY_INSERT [dbo].[Categorias] ON 
 GO

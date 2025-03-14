@@ -46,7 +46,7 @@ public partial class ApplicationDbContext : DbContext
         {
             entity.HasKey(e => e.Id).HasName("PK_DetallesPedido_Id");
 
-            entity.HasOne(d => d.Pedido).WithMany(p => p.DetallesPedidos)
+            entity.HasOne(d => d.Pedido).WithMany(p => p.DetallesPedido)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_DetallesPedido_Pedidos");
 
