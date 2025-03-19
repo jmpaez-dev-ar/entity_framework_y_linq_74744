@@ -8,7 +8,9 @@ namespace m05_EF_CRUD
 		{
 			// Demo de CRUD con las entidades de la base de datos
 			// DemoCRUD_Categorias();
-			 await DemoCRUD_Pedidos();
+			// DemoCRUD_Productos();
+			// DemoCRUD_Clientes();
+			await DemoCRUD_Pedidos();
 		}
 
 		static private async void DemoCRUD_Categorias()
