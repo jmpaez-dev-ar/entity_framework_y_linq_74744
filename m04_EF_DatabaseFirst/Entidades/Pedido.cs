@@ -22,4 +22,6 @@ public partial class Pedido
     public virtual Cliente Cliente { get; set; } = null!;
 
     public virtual ICollection<DetallePedido> DetallesPedido { get; set; } = new List<DetallePedido>();
+
+	public decimal Total { get; set; }
 }

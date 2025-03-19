@@ -26,12 +26,18 @@ namespace m05_EF_CRUD
 		// READ
 		public async Task<List<Categoria>> GetAllCategoriasAsync()
 		{
-			return await _context.Categorias.ToListAsync();
+			return await _context.Categorias.OrderBy(c => c.Nombre).ToListAsync();
 		}
 
 		public async Task<Categoria?> GetCategoriaByIdAsync(int id) {
 			return await _context.Categorias.FindAsync(id);
 		}
+
+		public async Task<List<Categoria>> GetAllCategoriasBySPAsync()
+		{
+			return await _context.Categorias.FromSqlRaw("EXECUTE dbo.GetAllCategorias").ToListAsync();
+		}
+
 
 		// UPDATE
 		public async Task<Categoria> UpdateCategoriaAsync(Categoria categoria)
